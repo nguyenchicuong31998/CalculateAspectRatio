@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspect Ratio Calculator</title>
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <div class="container-fluid wrap-container">
+        <div class="row">
+            <div class="col-6">
+                <div class="wrap-aspect-ratio">
+                    <div class="aspect-ratio-title">
+                        Aspect Ratio Calculator
+                    </div>
+                    <div class="row mb">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label class="form-title" for="">Width 1: </label>
+                                <input class="form-control input-width-1" type="text">
+                                <small class="invalid-feedback">The field width is required.</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label class="form-title" for="">Height 1: </label>
+                                <input class="form-control input-height-1" type="text" >
+                                <small class="invalid-feedback">The field width is required.</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label class="form-title" for="">Width 2: </label>
+                                <input class="form-control input-width-2" type="text">
+                                <small class="invalid-feedback">The field width is required.</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label class="form-title" for="">Height 2: </label>
+                                <input class="form-control input-height-2" type="text" >
+                                <small class="invalid-feedback">The field width is required.</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wrap-result">
+                        Your aspect ratio is: <span class="result"> - </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-6">
+                <article class="article">
+                    <h2 class="question">What Aspect Ratio?</h2>
+                    <div class="answer">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ullam est vel, fugiat excepturi quibusdam perferendis nam molestias rerum facilis expedita voluptate aut animi esse quasi maxime libero magnam pariatur!
+                    </div>
+                </article>
+                <article class="article">
+                    <h2 class="question">What Aspect Ratio?</h2>
+                    <div class="answer">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ullam est vel, fugiat excepturi quibusdam perferendis nam molestias rerum facilis expedita voluptate aut animi esse quasi maxime libero magnam pariatur!
+                    </div>
+                </article>
+                <article class="article">
+                    <h2 class="question">Formula</h2>
+                    <div class="answer">
+                        <div class="desc">
+                            Say you have a photo that is 1600 x 1200 pixels, but your blog only has space for a photo 400 pixels wide. To find the new height of your photo—while preserving the aspect ratio—you would need to do the following calculation:
+                        </div>
+                        <div class="formula">
+                            <div>(original height / original width) x new width = new height</div>
+                            <div class="example">
+                                (1200 / 1600) x 400 = 300
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>                 
